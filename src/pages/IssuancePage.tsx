@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-// Adjust the port if your issuance service runs on a different port.
+// The port if your issuance service runs on a different port.
 const ISSUANCE_API = import.meta.env.VITE_ISSUANCE_API || "http://localhost:4000/issue";
 
 export default function IssuancePage() {
